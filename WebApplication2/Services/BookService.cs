@@ -22,6 +22,8 @@ namespace WebApplication2.Services
         {
             _books = new List<Book>()
             {
+                // I have used online GUID generator https://guidgenerator.com/online-guid-generator.aspx for generating GUIDs 
+
                 new Book()
                 {
                     Id = new Guid("6cfbfeed-da15-45c7-8894-e9fca9896be1"),
